@@ -1,0 +1,8 @@
+The program takes in command line arguments and prints out the sign and 
+bit structure of the number inputted to the correct amount of bits. 
+If “char 7” is inputted, it will print out sign = 0 and binary = 00000111. 
+This works for char (8 bits), int (32 bits), long (64 bits) and 
+hexadecimals. This program also works for negative decimal and Hexidecimal 
+numbers,and positive float numbers. I’ve tested all the functions except for 
+toBinary and fTObin because I couldn’t figure out how to test it without 
+having to return an array.
